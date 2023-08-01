@@ -1,0 +1,32 @@
+DOI: 10.5281/zenodo.8206617
+
+SOFTWARE: gromacs
+TRJ: md.xtc
+TPR: md.tpr
+PREEQTIME: 0
+TIMELEFTOUT: 2
+TEMPERATURE: 300
+
+COMPOSITION:
+ POPC:
+  NAME: MOL0
+  MAPPING: mappingMOL0.txt
+ SOL:
+  NAME: MOL1
+  MAPPING: mappingMOL1.txt
+ 
+DIR_WRK: /Users/patrickfrankel/Downloads/lipid_database
+
+PUBLICATION:
+AUTHORS_CONTACT: Patrick Frankel
+
+SYSTEM: POPC_128_OPENFF_300K
+SOFTWARE_VERSION:
+
+FF: OpenFF
+FF_SOURCE: https://docs.openforcefield.org/en/latest/
+FF_DATE: 
+
+CHK:
+TOP:
+CRD:
